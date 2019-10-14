@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ALAPI - 免费API数据接口</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="ALAPI,免费API,快递API,翻译API,新闻数据">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+    window.$docsify = {
+      name: 'ALAPI',
+      repo: '',
+	  homepage:'alapi.md',
+	  loadNavbar: 'nav.md',
+	  loadSidebar: 'summary.md',
+	  auto2top: true,
+	  search: 'auto',
+	  maxLevel: 5,
+	  subMaxLevel:5,
+	  formatUpdated: '{MM}/{DD} {HH}:{mm}',
+	  plugins: [
+		function (hook) {
+      var footer = [
+        '<hr/>',
+        '<footer>',
+		'<span>Powered by <a href="https://alone88.cn" target="_blank">Alone88</span>',
+        '</footer>'
+      ].join('')
+
+      hook.afterEach(function (html) {
+        return html + footer
+      })
+    }
+  ]
+    }
+	
+  </script>
+  
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-json.js"></script>
+
+  <!-- Plugins：全文搜索 -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <!-- Plugins：图片缩放 - Zoom image -->
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+</body>
+</html>
