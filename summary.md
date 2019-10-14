@@ -24,3 +24,6 @@
 * [国内+全球 天气预报（支持多语言）](qqtq)
 * [QQ 域名网址 安全检测](qqurlcheck)
 * [垃圾分类查询](lajifenlei)
+* [历史上的今天](eventhitory)
+* [笑话大全](joke)
+
