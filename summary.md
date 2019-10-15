@@ -26,4 +26,5 @@
 * [垃圾分类查询](lajifenlei)
 * [历史上的今天](eventhitory)
 * [笑话大全](joke)
+* [谜语大全](miyu)
 
