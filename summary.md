@@ -1,4 +1,4 @@
-* [ALAPI **必看**](alapi)
+* [ALAPI **必看**](readme)
 * [Hitokoto 一言](hitokoto)
 * [ACG 图片](acg)
 * [必应美图](bing)
