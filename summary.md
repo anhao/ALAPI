@@ -26,6 +26,7 @@
 * [垃圾分类查询](lajifenlei)
 * [历史上的今天](eventhitory)
 * [笑话大全](joke)
+* [谜语大全](miyu)
 * [知乎日报](zhihu)
 * [内容加密](encrypt)
 * [每日一文](mryw)
