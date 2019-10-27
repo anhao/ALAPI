@@ -73,8 +73,22 @@ a
 
 {% endapi-method-response-example-description %}
 
-```
-
+```javascript
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "id": 1084,
+        "hitokoto": "人不是靠做出来的 而是靠活出来的。",
+        "type": "g",
+        "from": "士兵突击",
+        "creator": "哆啦尼可夫"
+    },
+    "Author": {
+        "name": "Alone88",
+        "desc": "由Alone88提供的免费API 服务，官方文档：www.alapi.cn"
+    }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
