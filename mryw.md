@@ -1,19 +1,20 @@
 # 每日一文
-> 每天更新一篇文章，数据来自：https://meiriyiwen.com/
+
+> 每天更新一篇文章，数据来自：[https://meiriyiwen.com/](https://meiriyiwen.com/)
 
 ## 接口参数
 
 请求地址：`/api/mryw/[random]`
 
-请求方式：`get`  `post`
+请求方式：`get` `post`
 
 请求参数：无
 
-请求地址说明： 如果后面加上了 `random`  就随机返回一篇文章。 不加上，则获取今日的文章
+请求地址说明： 如果后面加上了 `random` 就随机返回一篇文章。 不加上，则获取今日的文章
 
 ## 返回数据
 
-```json
+```javascript
 {
     "code": 200,
     "msg": "success",
@@ -33,3 +34,4 @@
     }
 }
 ```
+
