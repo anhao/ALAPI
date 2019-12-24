@@ -4,7 +4,7 @@
 
 
 
-### 接口参数
+## 接口参数
 
 请求地址: `/api/lanzou`
 
@@ -17,7 +17,7 @@
 | `url`    | 是   | string | 蓝奏云的分享链接                                    |
 | format   | 否   | string | 返回的数据类型,可选：`json` ，默认302跳转到下载链接 |
 
-### 返回数据
+## 返回数据
 
 测试参数 : `url=https://www.lanzous.com/i5k10wd&format=json`
 

@@ -42,7 +42,9 @@
 
 请求参数：
 
-`url`  和`file` 必选选择一个，`get` 方式只能使用 `url`, `file` 参数需要 `post` 方式上传图片, 文件类型只支持图片
+`url`  和`file` 必选选择一个，`get` 方式只能使用 `url`, `file` 参数需要 `post` 方式上传图片, 文件类型只支持图片。图片文件最大 2MB
+
+**推荐使用POST方式上传二维码图片解析**
 
 | 参数名称 | 必选 | 类型     | 说明                                 |
 | -------- | ---- | -------- | ------------------------------------ |
@@ -51,7 +53,7 @@
 
 ### 返回数据
 
-测试参数： `url=http://v1.alapi.cn/api/qr?content=https://www.alpi.cn`
+测试参数： `url=http://v1.alapi.cn/api/qr/decode?url=http://file.alapi.cn/test//wLbjmvPDNAeOD2ooUMziywO1EUIPuNJUHvCiOatp.png`
 
 ```json
 {

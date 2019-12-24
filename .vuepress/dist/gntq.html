@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>国内天气预报查询 | ALAPI</title>
+    <meta name="description" content="ALAPI,免费API,Free API,免费API访问,免费快递查询接口..">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.47f97468.css" as="style"><link rel="preload" href="/assets/js/app.bc488375.js" as="script"><link rel="preload" href="/assets/js/4.1ee220ee.js" as="script"><link rel="preload" href="/assets/js/15.8d621c31.js" as="script"><link rel="prefetch" href="/assets/js/10.c3f8e276.js"><link rel="prefetch" href="/assets/js/11.9e9fdfaa.js"><link rel="prefetch" href="/assets/js/12.51e849a4.js"><link rel="prefetch" href="/assets/js/13.cce54cf7.js"><link rel="prefetch" href="/assets/js/14.9bb92d5c.js"><link rel="prefetch" href="/assets/js/16.93d7f866.js"><link rel="prefetch" href="/assets/js/17.3b0c8eda.js"><link rel="prefetch" href="/assets/js/18.e15120d3.js"><link rel="prefetch" href="/assets/js/19.997f6c59.js"><link rel="prefetch" href="/assets/js/20.06094aa9.js"><link rel="prefetch" href="/assets/js/21.f93a80af.js"><link rel="prefetch" href="/assets/js/22.604a854e.js"><link rel="prefetch" href="/assets/js/23.e5afb65a.js"><link rel="prefetch" href="/assets/js/24.7f022c04.js"><link rel="prefetch" href="/assets/js/25.03514eb6.js"><link rel="prefetch" href="/assets/js/26.b2c069df.js"><link rel="prefetch" href="/assets/js/27.843e680e.js"><link rel="prefetch" href="/assets/js/28.304a746e.js"><link rel="prefetch" href="/assets/js/29.1cc42aa2.js"><link rel="prefetch" href="/assets/js/3.1edb3af7.js"><link rel="prefetch" href="/assets/js/30.437fd869.js"><link rel="prefetch" href="/assets/js/31.09212a4e.js"><link rel="prefetch" href="/assets/js/32.c5817630.js"><link rel="prefetch" href="/assets/js/33.fd1032d1.js"><link rel="prefetch" href="/assets/js/34.46714e6a.js"><link rel="prefetch" href="/assets/js/35.c0399d52.js"><link rel="prefetch" href="/assets/js/36.99f63278.js"><link rel="prefetch" href="/assets/js/37.be1311a5.js"><link rel="prefetch" href="/assets/js/38.aa09064d.js"><link rel="prefetch" href="/assets/js/39.391c5663.js"><link rel="prefetch" href="/assets/js/40.0c1493b3.js"><link rel="prefetch" href="/assets/js/41.a5a08eae.js"><link rel="prefetch" href="/assets/js/42.0d24100b.js"><link rel="prefetch" href="/assets/js/43.80dc20f7.js"><link rel="prefetch" href="/assets/js/44.3c9ec4a1.js"><link rel="prefetch" href="/assets/js/45.0c012064.js"><link rel="prefetch" href="/assets/js/5.18aefd63.js"><link rel="prefetch" href="/assets/js/6.ec2b3331.js"><link rel="prefetch" href="/assets/js/7.70892e33.js"><link rel="prefetch" href="/assets/js/8.641421e7.js"><link rel="prefetch" href="/assets/js/9.7d45cef1.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.81d53d3f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.47f97468.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">ALAPI</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://www.alapi.cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Home
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://alone88.cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Alone88
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/anhao" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/anhao/alapi" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://www.alapi.cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Home
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://alone88.cn" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Alone88
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/anhao" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/anhao/alapi" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/alapi.html" class="sidebar-link">ALAPI(必看)</a></li><li><a href="/soul.html" class="sidebar-link">心灵毒鸡汤</a></li><li><a href="/hitokoto.html" class="sidebar-link">Hitokoto 一言</a></li><li><a href="/acg.html" class="sidebar-link">ACG 图片</a></li><li><a href="/bing.html" class="sidebar-link">必应美图</a></li><li><a href="/avatar.html" class="sidebar-link">获取头像</a></li><li><a href="/ipquery.html" class="sidebar-link">IP查询</a></li><li><a href="/shorturl.html" class="sidebar-link">短网址生成</a></li><li><a href="/videojx.html" class="sidebar-link">短视频无水印解析（聚合接口）</a></li><li><a href="/videody.html" class="sidebar-link">抖音无水印解析</a></li><li><a href="/ppx.html" class="sidebar-link">皮皮虾无水印解析</a></li><li><a href="/qr.html" class="sidebar-link">二维码生成和解码</a></li><li><a href="/lanzous.html" class="sidebar-link">蓝奏云直连解析</a></li><li><a href="/wytt.html" class="sidebar-link">网易新闻头条</a></li><li><a href="/wyfull.html" class="sidebar-link">网易新闻详情解析</a></li><li><a href="/hanfu.html" class="sidebar-link">汉服新闻数据</a></li><li><a href="/wbtop.html" class="sidebar-link">微博热搜榜</a></li><li><a href="/whois.html" class="sidebar-link">域名Whois</a></li><li><a href="/icp.html" class="sidebar-link">域名备案Icp</a></li><li><a href="/wymusic.html" class="sidebar-link">网易云音乐</a></li><li><a href="/kd.html" class="sidebar-link">快递查询接口</a></li><li><a href="/fanyi.html" class="sidebar-link">翻译查询接口</a></li><li><a href="/mingyan.html" class="sidebar-link">名人名言</a></li><li><a href="/gntq.html" class="active sidebar-link">国内天气预报</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/gntq.html#查询今日天气预报（3小时一更）" class="sidebar-link">查询今日天气预报（3小时一更）</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/gntq.html#接口参数" class="sidebar-link">接口参数</a></li><li class="sidebar-sub-header"><a href="/gntq.html#返回数据" class="sidebar-link">返回数据</a></li></ul></li><li class="sidebar-sub-header"><a href="/gntq.html#国内-7-日-天气预报" class="sidebar-link">国内 7 日 天气预报</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/gntq.html#接口参数-2" class="sidebar-link">接口参数</a></li><li class="sidebar-sub-header"><a href="/gntq.html#返回数据-2" class="sidebar-link">返回数据</a></li></ul></li><li class="sidebar-sub-header"><a href="/gntq.html#国内机场天气查询" class="sidebar-link">国内机场天气查询</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/gntq.html#接口参数-3" class="sidebar-link">接口参数</a></li><li class="sidebar-sub-header"><a href="/gntq.html#返回数据-3" class="sidebar-link">返回数据</a></li></ul></li></ul></li><li><a href="/qqtq.html" class="sidebar-link">全球天气预报</a></li><li><a href="/qinghua.html" class="sidebar-link">土味情话</a></li><li><a href="/qqurlcheck.html" class="sidebar-link">QQ域名安全检测</a></li><li><a href="/lajifenlei.html" class="sidebar-link">垃圾分类</a></li><li><a href="/eventhitory.html" class="sidebar-link">历史上的今天</a></li><li><a href="/joke.html" class="sidebar-link">笑话大全</a></li><li><a href="/miyu.html" class="sidebar-link">谜语大全</a></li><li><a href="/zhihu.html" class="sidebar-link">知乎日报</a></li><li><a href="/mryw.html" class="sidebar-link">每日一文</a></li><li><a href="/encrypt.html" class="sidebar-link">内容加密</a></li><li><a href="/ai.html" class="sidebar-link">内容审核-文本图片</a></li><li><a href="/tophub.html" class="sidebar-link">今日热榜</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="国内天气预报查询"><a href="#国内天气预报查询" class="header-anchor">#</a> 国内天气预报查询</h1> <blockquote><p>查询国内城市天气预报</p></blockquote> <h2 id="查询今日天气预报（3小时一更）"><a href="#查询今日天气预报（3小时一更）" class="header-anchor">#</a> 查询今日天气预报（3小时一更）</h2> <blockquote><p>查询今日天气预报，3小时一更新</p></blockquote> <h3 id="接口参数"><a href="#接口参数" class="header-anchor">#</a> 接口参数</h3> <p>请求地址:  <code>/api/tianqi/now</code></p> <p>请求方式：<code>get</code> <code>post</code></p> <p>请求参数：</p> <p><strong>这3个参数必选选择一个</strong></p> <table><thead><tr><th>参数名称</th> <th>必选</th> <th>类型</th> <th>说明</th></tr></thead> <tbody><tr><td><code>cityid</code></td> <td>否</td> <td><code>int</code></td> <td>城市的<code>id</code>,如：<code>101010400</code></td></tr> <tr><td><code>city</code></td> <td>否</td> <td><code>string</code></td> <td>城市的名称，如：<code>北京</code></td></tr> <tr><td><code>ip</code></td> <td>否</td> <td><code>string</code></td> <td><code>ip</code>,根据 <code>ip</code> 查询天气，默认请求客户端 <code>ip</code></td></tr></tbody></table> <h3 id="返回数据"><a href="#返回数据" class="header-anchor">#</a> 返回数据</h3> <p>测试参数：<code>city=北京</code></p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+<span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+<span class="token property">&quot;msg&quot;</span><span class="token operator">:</span> <span class="token string">&quot;success&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">&quot;cityid&quot;</span><span class="token operator">:</span> <span class="token string">&quot;101010100&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2019-09-30&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;week&quot;</span><span class="token operator">:</span> <span class="token string">&quot;星期一&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;update_time&quot;</span><span class="token operator">:</span> <span class="token string">&quot;10:15&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;city&quot;</span><span class="token operator">:</span> <span class="token string">&quot;北京&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;cityEn&quot;</span><span class="token operator">:</span> <span class="token string">&quot;beijing&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;country&quot;</span><span class="token operator">:</span> <span class="token string">&quot;中国&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;countryEn&quot;</span><span class="token operator">:</span> <span class="token string">&quot;China&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea_img&quot;</span><span class="token operator">:</span> <span class="token string">&quot;qing&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;23&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token string">&quot;19&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2级&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_meter&quot;</span><span class="token operator">:</span> <span class="token string">&quot;小于12km/h&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;62%&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;visibility&quot;</span><span class="token operator">:</span> <span class="token string">&quot;3.4km&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;pressure&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1011&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;air&quot;</span><span class="token operator">:</span> <span class="token string">&quot;124&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;air_pm25&quot;</span><span class="token operator">:</span> <span class="token string">&quot;124&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;air_level&quot;</span><span class="token operator">:</span> <span class="token string">&quot;轻度污染&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;air_tips&quot;</span><span class="token operator">:</span> <span class="token string">&quot;儿童、老年人及心脏病、呼吸系统疾病患者应尽量减少体力消耗大的户外活动。&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;alarm&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">&quot;alarm_type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;alarm_level&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;alarm_content&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">&quot;Author&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Alone88&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;由Alone88提供的免费API 服务，官方文档：www.alapi.cn&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="国内-7-日-天气预报"><a href="#国内-7-日-天气预报" class="header-anchor">#</a> 国内 <code>7</code> 日 天气预报</h2> <blockquote><p>预报 <code>7</code> 日 的天气预报</p></blockquote> <h3 id="接口参数-2"><a href="#接口参数-2" class="header-anchor">#</a> 接口参数</h3> <p>请求地址:  <code>/api/tianqi/grid</code></p> <p>请求方式：<code>get</code> <code>post</code></p> <p>请求参数：</p> <p><strong>这3个参数必选选择一个</strong></p> <table><thead><tr><th>参数名称</th> <th>必选</th> <th>类型</th> <th>说明</th></tr></thead> <tbody><tr><td><code>cityid</code></td> <td>否</td> <td><code>int</code></td> <td>城市的<code>id</code>,如：<code>101010400</code></td></tr> <tr><td><code>city</code></td> <td>否</td> <td><code>string</code></td> <td>城市的名称，如：<code>北京</code></td></tr> <tr><td><code>ip</code></td> <td>否</td> <td><code>string</code></td> <td><code>ip</code>,根据 <code>ip</code> 查询天气，默认请求客户端 <code>ip</code></td></tr></tbody></table> <h3 id="返回数据-2"><a href="#返回数据-2" class="header-anchor">#</a> 返回数据</h3> <p>测试参数：<code>city=北京</code></p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+<span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+<span class="token property">&quot;msg&quot;</span><span class="token operator">:</span> <span class="token string">&quot;success&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">&quot;cityid&quot;</span><span class="token operator">:</span> <span class="token string">&quot;101010100&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;update_time&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2019-09-30 07:30:00&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;city&quot;</span><span class="token operator">:</span> <span class="token string">&quot;北京&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;cityEn&quot;</span><span class="token operator">:</span> <span class="token string">&quot;beijing&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;country&quot;</span><span class="token operator">:</span> <span class="token string">&quot;中国&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;countryEn&quot;</span><span class="token operator">:</span> <span class="token string">&quot;China&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;day&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30日（今天）&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;date&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2019-09-30&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;week&quot;</span><span class="token operator">:</span> <span class="token string">&quot;星期一&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;多云转晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea_img&quot;</span><span class="token operator">:</span> <span class="token string">&quot;yun&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;air&quot;</span><span class="token operator">:</span> <span class="token number">124</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token number">55</span><span class="token punctuation">,</span>
+<span class="token property">&quot;air_level&quot;</span><span class="token operator">:</span> <span class="token string">&quot;轻度&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;air_tips&quot;</span><span class="token operator">:</span> <span class="token string">&quot;儿童、老年人及心脏病、呼吸系统疾病患者应尽量减少体力消耗大的户外活动。&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;alarm&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">&quot;alarm_type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;alarm_level&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;alarm_content&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token string">&quot;19℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;19℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+<span class="token string">&quot;南风&quot;</span><span class="token punctuation">,</span>
+<span class="token string">&quot;南风&quot;</span>
+<span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;3级&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;hours&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;day&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30日08时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;20℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;3级&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;day&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30日11时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;25℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;3级&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;day&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30日14时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;28℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;3级&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;day&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30日17时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;多云&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;28℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;3级&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;day&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30日20时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;多云&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;24℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;3级&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;day&quot;</span><span class="token operator">:</span> <span class="token string">&quot;30日23时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;多云&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;22℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;3级&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;day&quot;</span><span class="token operator">:</span> <span class="token string">&quot;01日02时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;多云&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;20℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;3级&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;day&quot;</span><span class="token operator">:</span> <span class="token string">&quot;01日05时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem&quot;</span><span class="token operator">:</span> <span class="token string">&quot;19℃&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;3级&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token property">&quot;index&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;紫外线指数&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;level&quot;</span><span class="token operator">:</span> <span class="token string">&quot;中等&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;涂擦SPF大于15、PA+防晒护肤品。&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;/em&gt;&lt;em&gt;&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;level&quot;</span><span class="token operator">:</span> <span class="token null keyword">null</span><span class="token punctuation">,</span>
+<span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;春天不减肥，夏天徒伤悲。天气较舒适，快去运动吧。&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;健臻·血糖指数&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;level&quot;</span><span class="token operator">:</span> <span class="token string">&quot;较易波动&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;血糖较易波动，注意监测。&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;穿衣指数&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;level&quot;</span><span class="token operator">:</span> <span class="token string">&quot;热&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;适合穿T恤、短薄外套等夏季服装。&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;洗车指数&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;level&quot;</span><span class="token operator">:</span> <span class="token string">&quot;适宜&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;天气较好，适合擦洗汽车。&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;空气污染扩散指数&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;level&quot;</span><span class="token operator">:</span> <span class="token string">&quot;中&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;易感人群应适当减少室外活动。&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+...
+<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">&quot;Author&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Alone88&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;由Alone88提供的免费API 服务，官方文档：www.alapi.cn&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="国内机场天气查询"><a href="#国内机场天气查询" class="header-anchor">#</a> 国内机场天气查询</h2> <blockquote><p>查询国内机场天气</p></blockquote> <h3 id="接口参数-3"><a href="#接口参数-3" class="header-anchor">#</a> 接口参数</h3> <p>请求地址:  <code>/api/tianqi/grid</code></p> <p>请求方式：<code>get</code> <code>post</code></p> <p>请求参数：</p> <p><strong>这3个参数必选选择一个</strong></p> <table><thead><tr><th>参数名称</th> <th>必选</th> <th>类型</th> <th>说明</th></tr></thead> <tbody><tr><td><code>iata</code></td> <td>是</td> <td><code>string</code></td> <td>机场代码：如：<code>SJW</code></td></tr></tbody></table> <p><strong>机场代码</strong></p> <table><thead><tr><th>机场代码</th> <th>机场名称</th></tr></thead> <tbody><tr><td>SJW</td> <td>石家庄正定国际机场</td></tr> <tr><td>PEK</td> <td>北京首都国际机场</td></tr> <tr><td>CGQ</td> <td>长春龙嘉国际机场</td></tr> <tr><td>HRB</td> <td>哈尔滨太平国际机场</td></tr> <tr><td>SHE</td> <td>沈阳桃仙国际机场</td></tr> <tr><td>DLC</td> <td>大连周水子国际机场</td></tr> <tr><td>YNT</td> <td>烟台蓬莱国际机场</td></tr> <tr><td>TAO</td> <td>青岛流亭国际机场</td></tr> <tr><td>TNA</td> <td>济南遥墙国际机场</td></tr> <tr><td>TSN</td> <td>天津滨海国际机场</td></tr> <tr><td>URC</td> <td>乌鲁木齐地窝堡国际机场</td></tr> <tr><td>LXA</td> <td>拉萨贡嘎国际机场</td></tr> <tr><td>LJG</td> <td>丽江三义国际机场</td></tr> <tr><td>KMG</td> <td>昆明长水国际机场</td></tr> <tr><td>JHG</td> <td>西双版纳嘎洒国际机场</td></tr> <tr><td>SYX</td> <td>三亚凤凰国际机场</td></tr> <tr><td>HAK</td> <td>海口美兰国际机场</td></tr> <tr><td>NNG</td> <td>南宁吴圩国际机场</td></tr> <tr><td>KWL</td> <td>桂林两江国际机场</td></tr> <tr><td>KWE</td> <td>贵阳龙洞堡国际机场</td></tr> <tr><td>CKG</td> <td>重庆江北国际机场</td></tr> <tr><td>CTU</td> <td>成都双流国际机场</td></tr> <tr><td>XNN</td> <td>西宁曹家堡国际机场</td></tr> <tr><td>LHW</td> <td>兰州中川国际机场</td></tr> <tr><td>INC</td> <td>银川河东国际机场</td></tr> <tr><td>XIY</td> <td>西安咸阳国际机场</td></tr> <tr><td>HET</td> <td>呼和浩特白塔国际机场</td></tr> <tr><td>TYN</td> <td>太原武宿国际机场</td></tr> <tr><td>CGO</td> <td>郑州新郑国际机场</td></tr> <tr><td>WUH</td> <td>武汉天河国际机场</td></tr> <tr><td>CSX</td> <td>长沙黄花国际机场</td></tr> <tr><td>KHN</td> <td>南昌昌北国际机场</td></tr> <tr><td>HFE</td> <td>合肥新桥国际机场</td></tr> <tr><td>NKG</td> <td>南京禄口国际机场</td></tr> <tr><td>CAN</td> <td>广州白云国际机场</td></tr> <tr><td>SZX</td> <td>深圳宝安国际机场</td></tr> <tr><td>HKG</td> <td>香港国际机场</td></tr> <tr><td>ZUH</td> <td>珠海金湾机场</td></tr> <tr><td>TPE</td> <td>桃园国际机场</td></tr> <tr><td>XMN</td> <td>厦门高崎国际机场</td></tr> <tr><td>JJN</td> <td>泉州晋江国际机场</td></tr> <tr><td>FOC</td> <td>福州长乐国际机场</td></tr> <tr><td>WNZ</td> <td>温州龙湾国际机场</td></tr> <tr><td>NGB</td> <td>宁波栎社国际机场</td></tr> <tr><td>HGH</td> <td>杭州萧山国际机场</td></tr> <tr><td>SHA</td> <td>上海虹桥国际机场</td></tr> <tr><td>PVG</td> <td>上海浦东国际机场</td></tr> <tr><td>WUX</td> <td>苏南硕放国际机场</td></tr></tbody></table> <h3 id="返回数据-3"><a href="#返回数据-3" class="header-anchor">#</a> 返回数据</h3> <p>测试参数：<code>iata=SJW</code></p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+<span class="token property">&quot;code&quot;</span><span class="token operator">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+<span class="token property">&quot;msg&quot;</span><span class="token operator">:</span> <span class="token string">&quot;success&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">&quot;iata&quot;</span><span class="token operator">:</span> <span class="token string">&quot;sjw&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;airport&quot;</span><span class="token operator">:</span> <span class="token string">&quot;石家庄正定国际机场&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;update_time&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2019-09-30 11:30&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;data&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;hour&quot;</span><span class="token operator">:</span> <span class="token string">&quot;08时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token number">17</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;西南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.6&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;77.1&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;rain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;hour&quot;</span><span class="token operator">:</span> <span class="token string">&quot;11时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token number">27</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.1&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;52.2&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;rain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;hour&quot;</span><span class="token operator">:</span> <span class="token string">&quot;14时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token number">30</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token number">27</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2.3&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;38.8&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;rain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;hour&quot;</span><span class="token operator">:</span> <span class="token string">&quot;17时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token number">30</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token number">29</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2.8&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;38.9&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;rain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;hour&quot;</span><span class="token operator">:</span> <span class="token string">&quot;20时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token number">29</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token number">24</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2.1&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;56.2&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;rain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;hour&quot;</span><span class="token operator">:</span> <span class="token string">&quot;23时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东南风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.8&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;61.4&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;rain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;hour&quot;</span><span class="token operator">:</span> <span class="token string">&quot;02时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token number">23</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token number">21</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.6&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;57.8&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;rain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;hour&quot;</span><span class="token operator">:</span> <span class="token string">&quot;05时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;晴&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.4&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;65.7&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;rain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">{</span>
+<span class="token property">&quot;hour&quot;</span><span class="token operator">:</span> <span class="token string">&quot;08时&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;wea&quot;</span><span class="token operator">:</span> <span class="token string">&quot;多云&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem1&quot;</span><span class="token operator">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
+<span class="token property">&quot;tem2&quot;</span><span class="token operator">:</span> <span class="token number">19</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win&quot;</span><span class="token operator">:</span> <span class="token string">&quot;东风&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;win_speed&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.3&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;humidity&quot;</span><span class="token operator">:</span> <span class="token string">&quot;64.8&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;rain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0.00&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token property">&quot;Author&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+<span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Alone88&quot;</span><span class="token punctuation">,</span>
+<span class="token property">&quot;desc&quot;</span><span class="token operator">:</span> <span class="token string">&quot;由Alone88提供的免费API 服务，官方文档：www.alapi.cn&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h1 id="返回参数说明"><a href="#返回参数说明" class="header-anchor">#</a> 返回参数说明</h1> <table><thead><tr><th>参数名</th> <th>说明</th></tr></thead> <tbody><tr><td>cityid</td> <td>当前城市ID</td></tr> <tr><td>update_time</td> <td>气象台更新时间</td></tr> <tr><td>date</td> <td>日期</td></tr> <tr><td>week</td> <td>星期</td></tr> <tr><td>wea</td> <td>天气情况</td></tr> <tr><td>wea_img</td> <td>天气对应图标(xue, lei, shachen, wu, bingbao, yun, yu, yin, qing)</td></tr> <tr><td>tem</td> <td>当前温度</td></tr> <tr><td>air</td> <td>空气质量</td></tr> <tr><td>air_pm25</td> <td>PM2.5</td></tr> <tr><td>air_level</td> <td>空气质量等级</td></tr> <tr><td>air_tips</td> <td>空气质量描述</td></tr> <tr><td>humidity</td> <td>湿度</td></tr> <tr><td>visibility</td> <td>能见度</td></tr> <tr><td>pressure</td> <td>气压hPa</td></tr> <tr><td>win</td> <td>风向</td></tr> <tr><td>win_speed</td> <td>风速等级</td></tr> <tr><td>win_meter</td> <td>风速 如: 12km/h</td></tr></tbody></table></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新：:</span> <span class="time">10/28/2019, 10:50:21 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/mingyan.html" class="prev">名人名言</a></span> <span class="next"><a href="/qqtq.html">全球天气预报</a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.bc488375.js" defer></script><script src="/assets/js/4.1ee220ee.js" defer></script><script src="/assets/js/15.8d621c31.js" defer></script>
+  </body>
+</html>
