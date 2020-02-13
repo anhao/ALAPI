@@ -12,21 +12,21 @@ module.exports = {
             indexName: 'alapi'
         },
         plugins: ['@vuepress/active-header-links','@vuepress/back-to-top','@vuepress/pwa'],
-        // plugins:['@vuepress/back-to-top'],
         nav: [
             {text: 'Home', link: 'https://www.alapi.cn'},
             {text: 'Alone88', link: 'https://alone88.cn'},
-            {text: 'Github', link: 'https://github.com/anhao'}
         ],
         sidebar: [
             ['alapi', 'ALAPI(必看)'],
 			['soul','心灵毒鸡汤'],
             ['hitokoto','Hitokoto 一言'],
+            ['hotComment','网易云乐评'],
             ['acg','ACG 图片'],
             ['bing','必应美图'],
 			['avatar','获取头像'],
             ['ipquery','IP查询'],
             ['shorturl','短网址生成'],
+            ['bdpwd','百度网盘提取码'],
             ['videojx','短视频无水印解析（聚合接口）'],
 			['videody','抖音无水印解析'],
 			['ppx','皮皮虾无水印解析'],
@@ -54,7 +54,10 @@ module.exports = {
             ['mryw','每日一文'],
             ['encrypt','内容加密'],
 			['ai','内容审核-文本图片'],
-			['tophub','今日热榜']
+			['tophub','今日热榜'],
+			['jiaqun','加群直链'],
+			['uploadimage','图片上传'],
+			['shici','随机诗词']
         ],
         markdown:{
             lineNumbers:true,

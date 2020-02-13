@@ -20,7 +20,9 @@
 
 ## 返回数据
 
-测试参数 `format=json`
+测试参数 
+
+`https://v1.alapi.cn/api/acg?format=json`
 
 ```json
 {
