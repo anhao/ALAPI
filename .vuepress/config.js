@@ -1,6 +1,7 @@
 module.exports = {
     title: 'ALAPI',
     description: 'ALAPI,免费API,Free API,免费API访问,免费快递查询接口..',
+    dest:'dist',
     themeConfig: {
         repo:'anhao/alapi',
         sidebarDepth:2,
@@ -11,6 +12,7 @@ module.exports = {
             apiKey: '152fd99568ed0024cb8721c2f89b9836',
             indexName: 'alapi'
         },
+
         plugins: ['@vuepress/active-header-links','@vuepress/back-to-top','@vuepress/pwa'],
         nav: [
             {text: 'Home', link: 'https://www.alapi.cn'},
