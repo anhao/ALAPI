@@ -24,38 +24,38 @@
 
 ```json
 {
-    "code": 200,
-    "msg": "success",
-    "data": {
-        "is_Reg": true,
-        "domain": "QQ.COM",
-        "suffix": "com",
-        "Whois_Server": "whois.markmonitor.com",
-        "Creation_Date": "1995-05-04T04:00:00Z",
-        "Expiration_Date": "2027-07-27T02:09:19Z",
-        "Registrar": "MarkMonitor Inc.",
-        "Registrant_Email": "abusecomplaints@markmonitor.com",
-        "Registrant_Phone": "+1.2083895740",
-        "Domain_Status": [
-            "禁止删除(clientDeleteProhibited)",
-            "禁止转移(clientTransferProhibited)",
-            "禁止修改(clientUpdateProhibited)",
-            "禁止删除(serverDeleteProhibited)",
-            "禁止转移(serverTransferProhibited)",
-            "禁止修改(serverUpdateProhibited)"
-        ],
-        "Name_Server": [
-            "NS1.QQ.COM",
-            "NS2.QQ.COM",
-            "NS3.QQ.COM",
-            "NS4.QQ.COM"
-        ],
-        "DNSSEC": "unsigned"
-    },
-    "Author": {
-        "name": "Alone88",
-        "desc": "由Alone88提供的免费API 服务，官方文档：www.alapi.cn"
-    }
+"code": 200,
+"msg": "success",
+"data": {
+"is_reg": true,
+"domain": "QQ.COM",
+"suffix": "com",
+"whois_server": "whois.markmonitor.com",
+"creation_date": "1995-05-04T04:00:00Z",
+"expiration_date": "2027-07-27T02:09:19Z",
+"registrar": "MarkMonitor Inc.",
+"registrant_email": "abusecomplaints@markmonitor.com",
+"registrant_phone": "+1.2083895740",
+"nomain_status": [
+"禁止删除(clientDeleteProhibited)",
+"禁止转移(clientTransferProhibited)",
+"禁止修改(clientUpdateProhibited)",
+"禁止删除(serverDeleteProhibited)",
+"禁止转移(serverTransferProhibited)",
+"禁止修改(serverUpdateProhibited)"
+],
+"name_server": [
+"NS1.QQ.COM",
+"NS2.QQ.COM",
+"NS3.QQ.COM",
+"NS4.QQ.COM"
+],
+"dnssec": "unsigned"
+},
+"Author": {
+"name": "Alone88",
+"desc": "由Alone88提供的免费API 服务，官方文档：www.alapi.cn"
+}
 }
 ```
 
