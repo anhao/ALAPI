@@ -20,6 +20,7 @@ module.exports = {
         ],
         sidebar: [
             ['alapi', 'ALAPI(必看)'],
+            ['update',"更新日志"],
 			['soul','心灵毒鸡汤'],
             ['hitokoto','Hitokoto 一言'],
             ['hotComment','网易云乐评'],
