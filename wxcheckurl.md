@@ -1,6 +1,6 @@
-# `QQ` 网址安全检测
+# 微信 网址安全检测
 
-> 检测 网址或者域名，在 `QQ` 中是否被拦截  该接口有频率限制 `1 QPS`
+> 检测 网址或者域名，在微信中是否被拦截。 该接口有频率限制 `1 QPS`
 
 
 
@@ -8,7 +8,7 @@
 
 ## 接口参数
 
-请求地址：`/api/urlcheck/qq`
+请求地址：`/api/urlcheck/wx`
 
 请求方式：`get` `post`
 
@@ -29,7 +29,7 @@
     "code": 200,
     "msg": "success",
     "data": {
-        "type": "qq",
+        "type": "weixin",
         "status": 1,
         "msg": "正常",
         "url": "http://alapi.cn"
@@ -40,4 +40,3 @@
     }
 }
 ```
-

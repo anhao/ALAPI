@@ -49,6 +49,7 @@ module.exports = {
             ['qqtq','全球天气预报'],
             ['qinghua','土味情话'],
             ['qqurlcheck','QQ域名安全检测'],
+            ['wxcheckurl','微信域名安全检测'],
             ['lajifenlei','垃圾分类'],
             ['eventhitory','历史上的今天'],
             ['joke','笑话大全'],
