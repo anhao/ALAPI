@@ -61,7 +61,8 @@ module.exports = {
 			['tophub','今日热榜'],
 			['jiaqun','加群直链'],
 			['uploadimage','图片上传'],
-			['shici','随机诗词']
+			['shici','随机诗词'],
+			['bbcover',"Bilibili 封面获取"]
         ],
         markdown:{
             lineNumbers:true,

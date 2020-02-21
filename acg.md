@@ -24,19 +24,34 @@
 
 `https://v1.alapi.cn/api/acg?format=json`
 
+**2020-20-21更新：**
+
+> 可以缩放图片大小
+>
+> 直接在图片链接后面加参数就可以了
+>
+> 比如：`https://file.alapi.cn/image/comic/215610-154116697054cd.jpg`
+>
+> 后面加上 `!/both/500x200`
+>
+> 就变成：`https://file.alapi.cn/image/comic/215610-154116697054cd.jpg!/both/500x200`
+>
+> 就可以缩放图片尺寸为 ：宽 500 像素，高 200 像素
+
 ```json
 {
-    "code": 200,
-    "msg": "success",
-    "data": {
-        "url": "https://ws4.sinaimg.cn/large/0072Vf1pgy1foxkd6lx6jj31kw0w0wyb.jpg",
-        "width": 2048,
-        "height": 1152
-    },
-    "Author": {
-        "name": "Alone88",
-        "desc": "由Alone88提供的免费API 服务，官方文档：www.alapi.cn"
-    }
+"code": 200,
+"msg": "success",
+"data": {
+"url": "https://file.alapi.cn/image/comic/215610-154116697054cd.jpg",
+"width": 1199,
+"height": 846,
+"total": 2608
+},
+"Author": {
+"name": "Alone88",
+"desc": "由Alone88提供的免费API 服务，官方文档：www.alapi.cn"
+}
 }
 ```
 
