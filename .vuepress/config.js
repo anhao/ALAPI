@@ -13,7 +13,10 @@ module.exports = {
             indexName: 'alapi'
         },
 
-        plugins: ['@vuepress/active-header-links','@vuepress/back-to-top','@vuepress/pwa'],
+        plugins: ['@vuepress/active-header-links','@vuepress/back-to-top','@vuepress/pwa','@vuepress/google-analytics',
+      {
+        'ga': 'UA-159451023-1' // UA-00000000-0
+      }],
         nav: [
             {text: 'Home', link: 'https://www.alapi.cn'},
             {text: 'Alone88', link: 'https://alone88.cn'},
