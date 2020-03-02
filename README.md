@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://gitee.com/alone88/ALAPI/raw/master/logo.png
+heroImage: /logo.png
 heroText: ALAPI
 tagline: ALAPI,免费API服务,支持短网址缩短,快递查询,天气接口,翻译接口,网易云接口等...
 actionText: 快速上手 →

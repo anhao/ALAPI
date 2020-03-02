@@ -1,0 +1,21 @@
+{
+"name": "ALAPI官方文档",
+"short_name": "ALAPI",
+"icons": [{
+    "src": "icons/256.png",
+    "type": "image/png",
+    "sizes": "256x256"
+  }, {
+    "src": "icons/192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }, {
+    "src": "icons/144.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  }],
+"start_url": "/index.html",
+"display": "standalone",
+"background_color": "#fff",
+"theme_color": "#3eaf7c"
+}
