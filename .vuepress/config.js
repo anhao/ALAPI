@@ -5,28 +5,14 @@ module.exports = {
     themeConfig: {
         repo: 'anhao/alapi',
         sidebarDepth: 2, // displayAllHeaders: true,
-        lastUpdated: '上次更新：',
+        lastUpdated: '上次更新',
         smoothScroll: true,
-        plugins: [
-            '@vuepress/active-header-links', {
-                sidebarLinkSelector: '.sidebar-link',
-                headerAnchorSelector: '.header-anchor'
-            },
-            '@vuepress/back-to-top',
-            '@vuepress/pwa', {
-                serviceWorker: true,
-                updatePopup: {
-                    message: '发现新的内容了',
-                    buttonText: "刷新"
-                }
-            },
-            '@vuepress/google-analytics', {ua: 'UA-159451023-1'}
-        ],
-
         algolia: {
             apiKey: '152fd99568ed0024cb8721c2f89b9836',
-            indexName: 'alapi'
-        },
+            indexName:
+                'alapi'
+        }
+        ,
         nav: [{
             text: 'Home',
             link: 'https://www.alapi.cn'
@@ -34,55 +20,61 @@ module.exports = {
             text: 'Alone88',
             link: 'https://alone88.cn'
         },],
-        sidebar: [
-            ['alapi', 'ALAPI(必看)'],
-            ['update', "更新日志"],
-            ['soul', '心灵毒鸡汤'],
-            ['hitokoto', 'Hitokoto 一言'],
-            ['hotComment', '网易云乐评'],
-            ['acg', 'ACG 图片'],
-            ['bing', '必应美图'],
-            ['avatar', '获取头像'],
-            ['ipquery', 'IP查询'],
-            ['shorturl', '短网址生成'],
-            ['bdpwd', '百度网盘提取码'],
-            ['videojx', '短视频无水印解析（聚合接口）'],
-            ['videody', '抖音无水印解析'],
-            ['ppx', '皮皮虾无水印解析'],
-            ['qr', '二维码生成和解码'],
-            ['lanzous', '蓝奏云直连解析'],
-            ['wytt', '网易新闻头条'],
-            ['wyfull', '网易新闻详情解析'],
-            ['hanfu', '汉服新闻数据'],
-            ['wbtop', '微博热搜榜'],
-            ['whois', '域名Whois'],
-            ['icp', '域名备案Icp'],
-            ['wymusic', '网易云音乐'],
-            ['kd', '快递查询接口'],
-            ['fanyi', '翻译查询接口'],
-            ['mingyan', '名人名言'],
-            ['gntq', '国内天气预报'],
-            ['qqtq', '全球天气预报'],
-            ['qinghua', '土味情话'],
-            ['qqurlcheck', 'QQ域名安全检测'],
-            ['wxcheckurl', '微信域名安全检测'],
-            ['lajifenlei', '垃圾分类'],
-            ['eventhitory', '历史上的今天'],
-            ['joke', '笑话大全'],
-            ['miyu', '谜语大全'],
-            ['zhihu', '知乎日报'],
-            ['mryw', '每日一文'],
-            ['encrypt', '内容加密'],
-            ['ai', '内容审核-文本图片'],
-            ['tophub', '今日热榜'],
-            ['jiaqun', '加群直链'],
-            ['uploadimage', '图片上传'],
-            ['shici', '随机诗词'],
-            ['bbcover', "Bilibili 封面获取"]
-        ],
-        markdown: {
-            lineNumbers: true,
-        },
+        sidebar:
+            [
+                ['alapi', 'ALAPI(必看)'],
+                ['update', "更新日志"],
+                ['soul', '心灵毒鸡汤'],
+                ['hitokoto', 'Hitokoto 一言'],
+                ['hotComment', '网易云乐评'],
+                ['acg', 'ACG 图片'],
+                ['bing', '必应美图'],
+                ['avatar', '获取头像'],
+                ['ipquery', 'IP查询'],
+                ['shorturl', '短网址生成'],
+                ['bdpwd', '百度网盘提取码'],
+                ['videojx', '短视频无水印解析（聚合接口）'],
+                ['videody', '抖音无水印解析'],
+                ['ppx', '皮皮虾无水印解析'],
+                ['qr', '二维码生成和解码'],
+                ['lanzous', '蓝奏云直连解析'],
+                ['wytt', '网易新闻头条'],
+                ['wyfull', '网易新闻详情解析'],
+                ['hanfu', '汉服新闻数据'],
+                ['wbtop', '微博热搜榜'],
+                ['whois', '域名Whois'],
+                ['icp', '域名备案Icp'],
+                ['wymusic', '网易云音乐'],
+                ['kd', '快递查询接口'],
+                ['fanyi', '翻译查询接口'],
+                ['mingyan', '名人名言'],
+                ['gntq', '国内天气预报'],
+                ['qqtq', '全球天气预报'],
+                ['qinghua', '土味情话'],
+                ['qqurlcheck', 'QQ域名安全检测'],
+                ['wxcheckurl', '微信域名安全检测'],
+                ['lajifenlei', '垃圾分类'],
+                ['eventhitory', '历史上的今天'],
+                ['joke', '笑话大全'],
+                ['miyu', '谜语大全'],
+                ['zhihu', '知乎日报'],
+                ['mryw', '每日一文'],
+                ['encrypt', '内容加密'],
+                ['ai', '内容审核-文本图片'],
+                ['tophub', '今日热榜'],
+                ['jiaqun', '加群直链'],
+                ['uploadimage', '图片上传'],
+                ['shici', '随机诗词'],
+                ['bbcover', "Bilibili 封面获取"],
+                ['idcard', '身份证信息查询'],
+                ['pinyin', '中文转拼音'],
+                ['lunar', '农历信息查询']
+            ],
+        markdown:
+            {
+                lineNumbers: true,
+            }
+        ,
     },
     head: [
         ['link', {
@@ -93,35 +85,23 @@ module.exports = {
             rel: 'manifest',
             href: '/manifest.json'
         }]
-        /*,
-                ['meta', {
-                    name: 'theme-color',
-                    content: '#3eaf7c'
-                }],
-                ['meta', {
-                    name: 'apple-mobile-web-app-capable',
-                    content: 'yes'
-                }],
-                ['meta', {
-                    name: 'apple-mobile-web-app-status-bar-style',
-                    content: 'black'
-                }],
-                ['link', {
-                    rel: 'apple-touch-icon',
-                    href: '/icons/apple-touch-icon-152x152.png'
-                }],
-                ['link', {
-                    rel: 'mask-icon',
-                    href: '/icons/safari-pinned-tab.svg',
-                    color: '#3eaf7c'
-                }],
-                ['meta', {
-                    name: 'msapplication-TileImage',
-                    content: '/icons/msapplication-icon-144x144.png'
-                }],
-                ['meta', {
-                    name: 'msapplication-TileColor',
-                    content: '#000000'
-                }]*/
+    ],
+    plugins: [
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: {
+                message: '发现新的内容了',
+                buttonText:
+                    "刷新"
+            }
+        }]
+        , ['@vuepress/active-header-links', {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor'
+        }]
+        , ['@vuepress/back-to-top']
+        , ['@vuepress/google-analytics', {
+            ua: 'UA-159451023-1'
+        }]
     ],
 }
