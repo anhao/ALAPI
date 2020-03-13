@@ -92,8 +92,5 @@ module.exports = {
             serviceWorker: true,
             updatePopup: true
         }],
-        ['@vuepress/google-analytics', {
-            ga: 'UA-128189152-1'
-        }],
     ],
 }
