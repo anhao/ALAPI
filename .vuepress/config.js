@@ -87,21 +87,13 @@ module.exports = {
         }]
     ],
     plugins: [
+        ['@vuepress/back-to-top', true],
         ['@vuepress/pwa', {
             serviceWorker: true,
-            updatePopup: {
-                message: '发现新的内容了',
-                buttonText:
-                    "刷新"
-            }
-        }]
-        , ['@vuepress/active-header-links', {
-            sidebarLinkSelector: '.sidebar-link',
-            headerAnchorSelector: '.header-anchor'
-        }]
-        , ['@vuepress/back-to-top']
-        , ['@vuepress/google-analytics', {
-            ua: 'UA-159451023-1'
-        }]
+            updatePopup: true
+        }],
+        ['@vuepress/google-analytics', {
+            ga: 'UA-128189152-1'
+        }],
     ],
 }
