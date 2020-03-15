@@ -19,7 +19,10 @@ module.exports = {
         }, {
             text: 'Alone88',
             link: 'https://alone88.cn'
-        },],
+        },{
+			text: 'APP版 文档',
+			link: 'https://file.alapi.cn/app-release.apk'
+		}],
         sidebar:
             [
                 ['alapi', 'ALAPI(必看)'],
