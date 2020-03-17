@@ -39,6 +39,6 @@ QQ群：464306428
 ```
 
 <div class="footer">
-<p>MIT Licensed | Copyright © 2020 <a href="https://alone88.cn" target="_blank" title="Alone88">Alone88</a> &nbsp;  | &nbsp;<a href="http://www.beian.miit.gov.cn/" target="_blank"  title="备案号"> 赣ICP备18001819号</a></p>
+<p>MIT Licensed | Copyright © 2020 <a href="https://alone88.cn" target="_blank" title="Alone88">Alone88</a> &nbsp;  | &nbsp;<a href="http://www.beian.miit.gov.cn/" target="_blank"  title="备案号"> 苏ICP备19006463号-6</a></p>
 </div>
 
