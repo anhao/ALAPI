@@ -71,7 +71,9 @@ module.exports = {
                 ['bbcover', "Bilibili 封面获取"],
                 ['idcard', '身份证信息查询'],
                 ['pinyin', '中文转拼音'],
-                ['lunar', '农历信息查询']
+                ['lunar', '农历信息查询'],
+                ['poem','藏头诗生成'],
+                ['couplet','对联生成']
             ],
         markdown:
             {
